@@ -28,3 +28,43 @@
 ### 머신러닝의 실무 프로젝트 적용
 머신러닝 관련 과목을 들으며 A+ 라는 좋은 성적을 얻긴 했지만 제 실력이 아직 부족하다고 느꼈었습니다. 하지만 해당 실무 프로젝트를 진행하며 개념을 다시 한번 정리할 수 있었고 배웠던 기술을 사용하고 응용하며 문제를 해결할 수 있었습니다. 
 <br/><br/>
+
+## Project Background
+<img width="541" alt="image" src="https://github.com/HG-Shin/Indonesia_TKU_Project/assets/124351914/433a95d7-5edc-4afd-8508-bbc086fd7dfc">
+  <div>
+    In response to the subjective and inconsistent methods of tea quality assessment, we introduce the concept of an "Artificial Nose."  
+    This innovative approach combines machine learning and specialized hardware to evaluate tea quality based solely on its aroma.
+  </div>
+
+## Solution
+- Through the integration of machine learning, we combine various machine learning methods in our approach.
+- The machine learning approach enables the hardware to process sensor data with the goal of identifying and isolating the authentic aroma originating from tea.
+- for imbalance data this is out of our control, depending on tea plantation manufacturer
+
+## Gas Sensor
+| Sensor | Sensitivity |
+| - | - |
+| MQ3 | Alcohol vapors |
+| TGS882 | such as Hydrogen(H2), Methane(CH4), Carbone monoxide(CO) |
+| TGS2602 | Ammonia(NH3) and Organic compounds |
+| MQ5 | LPG, Methane(CH4), Alcohol |
+| MQ138 | Ammonia(NH3) |
+| TGS2620 | Hydrogen(H2), Methane(CH4), Propane(C3H8) |
+
+## Algorithm Comparison Table
+| Name Algorithm | accuracy |
+| - | - |
+| KNeighbors | 0.99 (99%) |
+| RandomForest | 0.99 (99%) |
+| XGboost	| 0.91 (91%) |
+| Neural Network | 0.89 (89%) |
+| Decision Tree	| 0.75 (75%) |
+| Logistic Regression	| 0.73 (73%) |
+| Support Vector Machine	| 0.73 (73%) |
+
+## Completion
+<img width="396" alt="image" src="https://github.com/HG-Shin/Indonesia_TKU_Project/assets/124351914/e791690a-6ac4-4c0b-9f93-959519a4d530">
+<div>
+In the end, the goal of this solution is to address consumer complaints and enhance overall <br/>
+satisfaction by maintaining consistent and objectively measured product quality.
+</div>
